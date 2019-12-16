@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900');
+
+/* --- general -- */
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+/* --- navbar -- */
+
+.bgr-navbar {
+    background-color: #000000
+}
+
+.navbar-brand {
+    font-family: "Pappins", sans-serif;
+    font-weight: 700;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.nav-item {
+    font-weight: 500;
+}
+
+/* --- main image -- */
+
+.callout-img {
+    height: 100vh;
+
+    background: url("..//images/bg-collout.jpeg") no-repeat center center;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation-name: main-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+    background-attachment: fixed;
+}
+
+#main-image {
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes main-zoom {
+    from {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* --- main text -- */
+
+.callout {
+    font-family: "Poppins", sans-serif;
+    color: #fafafa;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.callout h1 {
+    font-weight: 700;
+    font-size: 350%;
+}
+
+/* --- about section -- */
+
+.section-about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-about-content {
+    margin: 15px 15px;
+    
+}
+
+.col-left-info {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.col-right-info {
+    padding: 5px 5px;
+    font-weight: 300;
+}
+
+.col-right-info p {
+    text-align: justify;
+}
+
+@media (min-width: 576px) {
+    .section-about-content {
+        margin: 30px 30px;
+    }
+
+    .col-left-info {
+        padding: 0 10px;
+    }
+
+    .col-right-info {
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .section-about-content {
+        margin: 50px 50px;
+    }
+
+    .col-left-info {
+        padding: 0 20px;
+    }
+
+    .col-right-info {
+        padding: 0 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .section-about-content {
+        margin: 75px 75px;
+    }
+
+    .col-left-info {
+        padding-left: 50px;
+    }
+
+    .col-right-info {
+        padding-right: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .section-about-content {
+        margin: 75px 100px;
+    }
+}
