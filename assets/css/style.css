@@ -163,7 +163,7 @@ html {
 
 /* --- visit section -- */
 
-#visit.section-site {
+#visit {
     background-color: #f9f9f9;
 }
 
@@ -208,7 +208,9 @@ html {
 
 /* --- video section -- */
 
-
+#video {
+    background-color: #f9f9f9;
+}
 
 /* --- responsive section -- */
 
