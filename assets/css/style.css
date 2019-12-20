@@ -64,6 +64,12 @@ html {
     padding-bottom: 0;
 }
 
+.navbar i {
+    padding-right: 10px;
+    color: #782b1e;
+    font-size: 25px;
+}
+
 .navbar .navbar-toggler {
     border: 0;
 }
@@ -90,7 +96,7 @@ nav .navbar-nav li a:hover {
 .callout-img {
     height: 100vh;
 
-    background: url("..//images/bg-collout.jpeg") no-repeat center center;
+    background: url("..//images/bg-collout.jpg") no-repeat center center;
     background-size: cover;
     
     display: flex;
@@ -195,6 +201,16 @@ nav .navbar-nav li a:hover {
 
 .col-9.col-9-area {
     padding-bottom: 40px;
+}
+
+/* --- design background --- */
+
+.bg-design {
+    height: 30vh;
+    background: url("..//images/bg-video.jpeg") no-repeat center right;
+    background-size: cover;
+    justify-content: center;
+    background-attachment: fixed;
 }
 
 /* --- gallery section -- */
