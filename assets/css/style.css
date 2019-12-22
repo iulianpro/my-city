@@ -106,7 +106,7 @@ nav .navbar-nav li a:hover {
     animation-name: main-zoom;
     animation-duration: 5s;
     animation-fill-mode: backwards;
-    background-attachment: fixed;
+    background-attachment: fixed !important;
 }
 
 @keyframes main-zoom {
@@ -150,17 +150,19 @@ nav .navbar-nav li a:hover {
 
 .section-content {
     margin: 0 10px;
-    
 }
 
 .col-left-info {
     overflow: hidden;
     display: inline-block;
+    margin: 10px 10px 0;
 }
 
 .col-right-info {
     margin-top: 15px;
-    padding: 5px 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 10px;
     font-weight: 300;
 }
 
@@ -210,7 +212,7 @@ nav .navbar-nav li a:hover {
     background: url("..//images/bg-video.jpeg") no-repeat center right;
     background-size: cover;
     justify-content: center;
-    background-attachment: fixed;
+    background-attachment: fixed !important;
 }
 
 /* --- gallery section -- */
@@ -238,21 +240,106 @@ nav .navbar-nav li a:hover {
     background-color: #f9f9f9;
 }
 
-/* --- responsive section -- */
+/* --- subscribe section -- */
 
-@media (min-width: 576px) {
-    .section-content {
-        margin: 0 10px;
-    }
-
-    .col-left-info {
-        padding: 0 10px;
-    }
-
-    .col-right-info {
-        padding: 0 10px;
-    }
+#form {
+    margin: 20px 20px 0;
 }
+
+.text-input {
+    outline: none;
+    font-weight: 100;
+}
+
+.text-input:hover {
+    border: 1px solid #782b1e;
+}
+
+input[type=text]:focus {
+    background-color: #f9f9f9;
+    outline: none;
+}
+
+  input[type=email]:focus {
+    background-color: #f9f9f9;
+}
+
+.bttn {
+    background-color: #782b1e;
+    border: none;
+    padding: 5px 25px;
+    color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.bttn:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #782b1e;
+    color: #782b1e;
+    outline: none;
+}
+
+.subscribed-msg {
+    font-size: 20px;
+    font-size: 100;
+    margin-top: 30px;
+    color: green;
+}
+
+/* --- footer section -- */
+
+.section-site-footer {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #782b1e;
+    color: #f9f9f9;
+}
+
+.section-site-footer h5 {
+    margin-top: 30px;
+}
+
+.footer-content {
+    margin-top: 25px;
+    font-weight: 100;
+}
+
+.footer-content i {
+    color: #f9f9f9;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.footer-content a {
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+.footer-content i:hover {
+    color: #b8a09e;
+ }
+
+.footer-content a:hover {
+    color: #b8a09e;
+ }
+
+ .social-links i {
+     font-size: 26px;
+     margin-left: 0;
+ }
+
+ .social-links i:hover {
+     color: #b8a09e;
+ }
+
+ .insta-feed {
+     width: 75px;
+     height: 42px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+ }
+
+/* --- responsive section -- */
 
 @media (min-width: 768px) {
     .section-content {
@@ -260,30 +347,29 @@ nav .navbar-nav li a:hover {
     }
 
     .col-left-info {
-        padding: 0 20px;
+        margin: 20px 20px 0;
     }
 
     .col-right-info {
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
         padding: 0 20px;
-    }
-}
-
-@media (min-width: 992px) {
-    .section-content {
-        margin: 0 75px;
-    }
-
-    .col-left-info {
-        padding-left: 50px;
-    }
-
-    .col-right-info {
-        padding-right: 50px;
     }
 }
 
 @media (min-width: 992px) {
     .section-content {
         margin: 0 100px;
+    }
+
+    .col-left-info {
+        margin: 20px 20px 20px 50px;
+    }
+
+    .col-right-info {
+        margin-right: 50px;
+        margin-left: 0;
+        padding-right: 20px;
     }
 }
