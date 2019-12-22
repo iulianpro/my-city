@@ -210,8 +210,8 @@ nav .navbar-nav li a:hover {
 .bg-design {
     height: 30vh;
     background: url("..//images/bg-video.jpeg") no-repeat center right;
+    display: flex;
     background-size: cover;
-    justify-content: center;
     background-attachment: fixed !important;
 }
 
@@ -345,12 +345,7 @@ input[type=text]:focus {
     .section-content {
         margin: 0 50px;
     }
-
-    .callout-img,
-    .bg-design {
-        background-attachment: fixed !important;
-    }
-
+    
     .col-left-info {
         margin: 20px 20px 0;
     }
@@ -378,9 +373,3 @@ input[type=text]:focus {
         padding-right: 20px;
     }
 }
-
-@media only screen and (max-width: 768px) {
-    .callout-img {
-    background-size: 100% 100vh;
-    }
- }
