@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
 
 /* --- general -- */
 
@@ -75,7 +75,7 @@ html {
 }
 
 .nav-item {
-    font-weight: 400;
+    font-weight: 200;
 }
 
 nav .navbar-nav li a {
@@ -170,11 +170,11 @@ nav .navbar-nav li a:hover {
     text-align: justify;
 }
 
-.grow img{
+.grow img {
     transition: 0.5s ease-in-out;
 }
 
-.grow img:hover{
+.grow img:hover {
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
 }
@@ -288,6 +288,11 @@ input[type=text]:focus {
 
 .bttn-disabled {
     cursor: not-allowed;
+    border: 1px solid #6c6c6c;
+    background-color: #f9f9f9;
+    padding: 5px 25px;
+    color: #6c6c6c;
+    border-radius: 10px;
 }
 
 /* --- footer section -- */
