@@ -1,4 +1,4 @@
-/* --- prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) --- */
+/* --- Google Font import from https://fonts.google.com/ --- */
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
 
@@ -96,6 +96,8 @@ nav .navbar-nav li a:hover {
     position: relative;
 }
 
+/* --- prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) --- */
+
 .callout-img {
     height: 100vh;
 
@@ -118,7 +120,7 @@ nav .navbar-nav li a:hover {
             animation-duration: 5s;
     -webkit-animation-fill-mode: backwards;
             animation-fill-mode: backwards;
-    background-attachment: fixed !important;
+    background-attachment: fixed;
 }
 
 @-webkit-keyframes main-zoom {
@@ -250,7 +252,7 @@ nav .navbar-nav li a:hover {
     display: -ms-flexbox;
     display: flex;
     background-size: cover;
-    background-attachment: fixed !important;
+    background-attachment: fixed;
 }
 
 /* --- gallery section -- */
@@ -413,6 +415,12 @@ input[type=email]:focus {
         margin-left: 20px;
         margin-right: 20px;
         padding: 0 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .callout-img, .bg-design {
+        background-attachment: scroll;
     }
 }
 
