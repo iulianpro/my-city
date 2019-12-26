@@ -1,3 +1,5 @@
+/* --- prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) --- */
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
 
 /* --- general -- */
@@ -13,7 +15,7 @@ body {
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* --- sintex inspired from https://www.w3schools.com/cssref/pr_scroll-behavior.asp --- */
 }
 
 .text-center {
@@ -47,14 +49,15 @@ html {
 }
 
 .pointer {
-    cursor: pointer;
+    cursor: pointer;  /* --- sintax inspired from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_cursor --- */
 }
 
 /* --- navbar -- */
 
 .bgr-navbar {
     background-color: #000000;
-    box-shadow: 0 0 15px 0 rgba(0,0,0,0.55);
+    -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.55);
+            box-shadow: 0 0 15px 0 rgba(0,0,0,0.55);
 }
 
 .navbar-brand {
@@ -99,22 +102,46 @@ nav .navbar-nav li a:hover {
     background: url("..//images/bg-collout.jpg") no-repeat center center;
     background-size: cover;
     
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     position: relative;
-    animation-name: main-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: backwards;
+    -webkit-animation-name: main-zoom;
+            animation-name: main-zoom;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
     background-attachment: fixed !important;
+}
+
+@-webkit-keyframes main-zoom {
+    from {
+        -webkit-transform: scale(1.2);
+                transform: scale(1.2);
+    }
+
+    to {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
 }
 
 @keyframes main-zoom {
     from {
-        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+                transform: scale(1.2);
     }
+
     to {
-        transform: scale(1);
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }
 }
 
@@ -173,11 +200,17 @@ nav .navbar-nav li a:hover {
 }
 
 .grow img {
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
 }
 
 .grow img:hover {
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
 }
 
@@ -213,6 +246,8 @@ nav .navbar-nav li a:hover {
 .bg-design {
     height: 30vh;
     background: url("..//images/bg-video.jpeg") no-repeat center right;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background-size: cover;
     background-attachment: fixed !important;
@@ -229,11 +264,11 @@ nav .navbar-nav li a:hover {
     right: 10px;
     color: #f9f9f9;
     font-size: 200%;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .text-mf {
-    font-weight: 100;
+    font-weight: 300;
     text-align: center;
 }
 
@@ -250,22 +285,26 @@ nav .navbar-nav li a:hover {
 }
 
 .text-input {
-    outline: none;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .text-input:hover {
     border: 1px solid #782b1e;
 }
 
+/* --- sintax inspired from https://www.w3schools.com/css/css_form.asp --- */
+
 input[type=text]:focus {
     background-color: #f9f9f9;
     outline: none;
 }
 
-  input[type=email]:focus {
+input[type=email]:focus {
     background-color: #f9f9f9;
+    outline: none;
 }
+
+/* --- /sintax inspired --- */
 
 .bttn {
     background-color: #782b1e;
@@ -273,6 +312,7 @@ input[type=text]:focus {
     padding: 5px 25px;
     color: #f9f9f9;
     border-radius: 10px;
+    font-weight: 200;
 }
 
 .bttn:hover {
@@ -290,7 +330,7 @@ input[type=text]:focus {
 }
 
 .bttn-disabled {
-    cursor: not-allowed;
+    cursor: not-allowed; /* --- sintax inspired from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_cursor --- */
     border: 1px solid #6c6c6c;
     background-color: #f9f9f9;
     padding: 5px 25px;
@@ -342,7 +382,7 @@ input[type=text]:focus {
  }
 
  .social-links i {
-     font-size: 30px;
+     font-size: 25px;
      margin-left: 0;
  }
 
