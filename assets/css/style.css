@@ -399,7 +399,7 @@ input[type=email]:focus {
      margin-bottom: 5px;
  }
 
-/* --- responsive section -- */
+/* --- media query -- */
 
 @media (min-width: 768px) {
     .section-content {
@@ -407,14 +407,12 @@ input[type=email]:focus {
     }
     
     .col-left-info {
-        margin: 20px 20px 0;
+        margin: 10px 0 10px 20px;
     }
 
     .col-right-info {
-        margin-top: 15px;
-        margin-left: 20px;
-        margin-right: 20px;
-        padding: 0 20px;
+        margin: 0 20px 0 0;
+        padding: 20px 0 20px 20px;
     }
 }
 
@@ -430,12 +428,10 @@ input[type=email]:focus {
     }
 
     .col-left-info {
-        margin: 20px 20px 20px 50px;
+        margin: 20px 0 20px 50px;
     }
 
     .col-right-info {
-        margin-right: 50px;
-        margin-left: 0;
-        padding-right: 20px;
+        margin: 0 50px 0 0;
     }
 }
