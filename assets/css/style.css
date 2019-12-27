@@ -54,6 +54,8 @@ html {
 
 /* --- navbar -- */
 
+/* --- prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) --- */
+
 .bgr-navbar {
     background-color: #000000;
     -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.55);
@@ -95,8 +97,6 @@ nav .navbar-nav li a:hover {
     overflow: hidden;
     position: relative;
 }
-
-/* --- prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) --- */
 
 .callout-img {
     height: 100vh;
