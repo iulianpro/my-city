@@ -1,5 +1,5 @@
 # My City | Cluj Napoca
-User-Centric Frontend Development Milestone 1 Project - Code Institute
+User Centric Frontend Development Milestone Project - Code Institute
 
 This is the website I created to promote my city. Cluj Napoca is a city in full development both economically and tourist, with a rich historical heritage. Transylvania is an area full of vampire legends and Cluj Napoca is no exception.As a visitor you will discover in the heart of Transylvania a multitude of ancient tourist objectives, local traditions dating back centuries, but you will also discover local gastronomy, famous festivals throughout Europe as well as warm people and ready to welcome guests.
 
@@ -26,3 +26,12 @@ This initial version of the website has some brief features so that the user can
 * Subscribe - This section is live, the user can subscribe to a newsletter to receive in the future information about cultural events and not only from Cluj Napoca.
 
 ### Features Left to Implement
+As I said above, in the future the website will include more functionalities such as a section with a more detailed presentation of places to visit, an interactive map with their location, accommodations, restaurants, caffee shops, various events, but and other features.
+
+## Technologies Used
+To create this website, several technologies were used, as well as some frameworks and libraries detailed below:
+* HTML5
+* CSS3
+* [Bootstrap (4.4.1)](https://getbootstrap.com/) and [BootstrapCDN](https://getbootstrap.com/docs/4.4/getting-started/download/#bootstrapcdn) JS jQuery and Popper.js
+* [Hoover.css](http://ianlunn.github.io/Hover/) by [Ian Lunn](https://ianlunn.co.uk/)
+* [Font Awesome](https://fontawesome.com) | 
