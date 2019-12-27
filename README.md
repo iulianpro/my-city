@@ -45,6 +45,9 @@ Also, the following tools were used:
 * Import Fonts [https://fonts.google.com](https://fonts.google.com/)
 * Simple wireframe maker [https://wireframe.cc](https://wireframe.cc/)
 * Learned from [https://w3schools.com](https://www.w3schools.com/)
+* HTML Validation [https://validator.w3.org](https://validator.w3.org/)
+* CSS Validation [https://jigsaw.w3.org](https://jigsaw.w3.org/css-validator/)
+* CSS Autoprefixer [https://autoprefixer.github.io](https://autoprefixer.github.io/)
 
 ## Testing
 *under construction*
