@@ -36,6 +36,16 @@ To create this website, several technologies were used, as well as some framewor
 * [Hoover.css](http://ianlunn.github.io/Hover/) by [Ian Lunn](https://ianlunn.co.uk/)
 * [Font Awesome](https://fontawesome.com)
 
+Also, the following tools were used:
+* Compress images [https://tinyjpg.com](https://tinyjpg.com/)
+* Crop and resize images [https://iloveimg.com](https://www.iloveimg.com/crop-image)
+* Convert image to ICO file [https://hnet.com](https://hnet.com/png-to-ico/)
+* Extract color palette from image [https://color.adobe.com](https://color.adobe.com/create)
+* Pick colors from various sources Eye Dropper Chrome extension [http://eye-dropper.kepi.cz](http://eye-dropper.kepi.cz/)
+* Import Fonts [https://fonts.google.com](https://fonts.google.com/)
+* Simple wireframe maker [https://wireframe.cc](https://wireframe.cc/)
+* Learned from [https://w3schools.com](https://www.w3schools.com/)
+
 ## Testing
 *under construction*
 
