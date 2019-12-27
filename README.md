@@ -32,6 +32,18 @@ As I said above, in the future the website will include more functionalities suc
 To create this website, several technologies were used, as well as some frameworks and libraries detailed below:
 * HTML5
 * CSS3
-* [Bootstrap (4.4.1)](https://getbootstrap.com/) and [BootstrapCDN](https://getbootstrap.com/docs/4.4/getting-started/download/#bootstrapcdn) JS jQuery and Popper.js
+* [Bootstrap (4.4.1)](https://getbootstrap.com/) and [BootstrapCDN](https://getbootstrap.com/docs/4.4/getting-started/download/#bootstrapcdn) JS, jQuery and Popper.js
 * [Hoover.css](http://ianlunn.github.io/Hover/) by [Ian Lunn](https://ianlunn.co.uk/)
-* [Font Awesome](https://fontawesome.com) | 
+* [Font Awesome](https://fontawesome.com)
+
+## Credits
+
+### Content
+
+### Media
+* Vector icons for Visit section from [https://flaticon.com](https://flaticon.com)
+* Purchased images from [Adobe Stock Images](https://stock.adobe.com)
+* Free images from the Facebook account of [Cluj Napoca Mayor](https://www.facebook.com/EmilBoc.Intotdeaunapentruclujeni/?epa=SEARCH_BOX)
+* Video images with the written consent of [Cluj Napoca City Hall](#)
+
+### Acknowledgements
