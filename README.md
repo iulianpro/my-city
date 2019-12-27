@@ -36,9 +36,16 @@ To create this website, several technologies were used, as well as some framewor
 * [Hoover.css](http://ianlunn.github.io/Hover/) by [Ian Lunn](https://ianlunn.co.uk/)
 * [Font Awesome](https://fontawesome.com)
 
+## Testing
+*under construction*
+
+## Deployment
+*under construction*
+
 ## Credits
 
 ### Content
+*under construction*
 
 ### Media
 * Vector icons for Visit section from [https://flaticon.com](https://flaticon.com)
@@ -47,3 +54,4 @@ To create this website, several technologies were used, as well as some framewor
 * Video images with the written consent of [Cluj Napoca City Hall](#)
 
 ### Acknowledgements
+*under construction*
