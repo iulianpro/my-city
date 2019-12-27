@@ -11,49 +11,18 @@ A live demo can be find [here](https://iulianpro.github.io/my-city/index.html/?t
 ## UX
 
 ### User stories
-As a visitor to the site, the visitor will discover a city about which they may not have heard before, loaded with history, legends, places to visit, festivals, which they will surely want to discover.
+The visitor will discover on this website a city about which they may not have heard before, loaded with history, legends, places to visit, festivals and it is addressed to people who are passionate about travel, adventures, eager to discover new places. The website offers them a starting point, then will interest them in the future to visit and discover The Heart of Transylavania, Cluj Napoca.
 
 The website has been structured in six simple and concise sections that will arouse the user's curiosity to document about this land of legends and, why not, to visit it: [Home](wireframes/landing-page.jpg), [About](wireframes/about-section.jpg), [Visit](wireframes/visit-section.jpg), [Gallery](wireframes/gallery-section.jpg), [Video](wireframes/video-section.jpg), [Subscribe](wireframes/subscribe-section.jpg),  [Footer](wireframes/footer-section.jpg).
 
-
-### Strategy
-under construction
-
-### Scope
-under construction
-
-### Structure
-under construction
-
-### Skeleton
-under construction
-
-### Surface
-under construction
-
-## Tehnologies
-1. HTML5
-2. CSS3
-3. Bootstrap (4.4.1)
-
 ## Features
-under construction
+This initial version of the website has some brief features so that the user can find general information about Cluj Napoca. In the future, the website will offer more functionalities such as a section with a more detailed presentation of the places to visit but also others that I have detailed below.
+
+### Existing Features
+* About - In this section, the reader meets the city of Cluj Napoca, learns some details regarding history, tourist attractions, important cultural events, as well as emblematic tourist locations for the area.
+* Visit - This section presents brief information on the existence of the airport, medieval tourist attractions, festivals in the city, local gastronomy, about the strange forest on the outskirts of the city, as well as on the cafes in the city.
+* Gallery - A rich gallery with pictures from the city, will awaken the reader's imagination and desire to explore more.
+* Video - This short video presentation of the city will have the greatest impact, it offers the user a close contact with the reality of the city, with everything he can discover.
+* Subscribe - This section is live, the user can subscribe to a newsletter to receive in the future information about cultural events and not only from Cluj Napoca.
 
 ### Features Left to Implement
-
-## Testing
-under construction
-
-## Deployment
-under construction
-
-## Credits
-
-### Content
-under construction
-
-### Media
-under construction
-
-### Acknowledgements
-under construction
