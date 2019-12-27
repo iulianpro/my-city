@@ -1,12 +1,12 @@
 # My City | Cluj Napoca
 User Centric Frontend Development Milestone Project - Code Institute
 
-This is the website I created to promote my city. Cluj Napoca is a city in full development both economically and tourist, with a rich historical heritage. Transylvania is an area full of vampire legends and Cluj Napoca is no exception.As a visitor you will discover in the heart of Transylvania a multitude of ancient tourist objectives, local traditions dating back centuries, but you will also discover local gastronomy, famous festivals throughout Europe as well as warm people and ready to welcome guests.
+This is the website I created to promote my city. Cluj Napoca is a city in full development both economically and tourist, with a rich historical heritage. Transylvania is an area full of vampire legends and Cluj Napoca is no exception. As a visitor you will discover in the heart of Transylvania a multitude of ancient tourist objectives, local traditions dating back centuries, but you will also discover local gastronomy, famous festivals throughout Europe as well as warm people and ready to welcome guests.
 
 Potential readers will find out new things about this area of Transylvania and photos and video images will make them at least curious to visit the city. The project was made possible with the support of Cluj Napoca City Hall.
 
 ## Demo
-A live demo can be find [here](https://iulianpro.github.io/my-city/index.html/?target=_blank)
+A live demo can be find [here](https://iulianpro.github.io/my-city/index.html)
 
 ## UX
 
