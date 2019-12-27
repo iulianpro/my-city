@@ -29,7 +29,7 @@ This initial version of the website has some brief features so that the user can
 As I said above, in the future the website will include more functionalities such as a section with a more detailed presentation of places to visit, an interactive map with their location, accommodations, restaurants, caffee shops, various events, but and other features.
 
 ## Technologies Used
-To create this website, several technologies were used, as well as some frameworks and libraries detailed below:
+To create this website, several technologies were used, as well as some frameworks, libraries and tools detailed below:
 * HTML5
 * CSS3
 * [Bootstrap (4.4.1)](https://getbootstrap.com/) and [BootstrapCDN](https://getbootstrap.com/docs/4.4/getting-started/download/#bootstrapcdn) JS, jQuery and Popper.js
@@ -41,7 +41,7 @@ Also, the following tools were used:
 * Crop and resize images [https://iloveimg.com](https://www.iloveimg.com/crop-image)
 * Convert image to ICO file [https://hnet.com](https://hnet.com/png-to-ico/)
 * Extract color palette from image [https://color.adobe.com](https://color.adobe.com/create)
-* Pick colors from various sources Eye Dropper Chrome extension [http://eye-dropper.kepi.cz](http://eye-dropper.kepi.cz/)
+* Pick colors Eye Dropper Chrome extension [http://eye-dropper.kepi.cz](http://eye-dropper.kepi.cz/)
 * Import Fonts [https://fonts.google.com](https://fonts.google.com/)
 * Simple wireframe maker [https://wireframe.cc](https://wireframe.cc/)
 * Learned from [https://w3schools.com](https://www.w3schools.com/)
