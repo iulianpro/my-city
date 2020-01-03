@@ -13,7 +13,36 @@ A live demo can be find [here](https://iulianpro.github.io/my-city/index.html)
 ### User stories
 The visitor will discover on this website a city about which they may not have heard before, loaded with history, legends, places to visit, festivals and it is addressed to people who are passionate about travel, adventures, eager to discover new places. The website offers them a starting point, then will interest them in the future to visit and discover The Heart of Transylavania, Cluj Napoca.
 
-The website has been structured in six simple and concise sections that will arouse the user's curiosity to document about this land of legends and, why not, to visit it: [Home](wireframes/landing-page.jpg), [About](wireframes/about-section.jpg), [Visit](wireframes/visit-section.jpg), [Gallery](wireframes/gallery-section.jpg), [Video](wireframes/video-section.jpg), [Subscribe](wireframes/subscribe-section.jpg),  [Footer](wireframes/footer-section.jpg).
+### Strategy
+My goal was to create a minimalist and user-friendly website as possible, to present the city of Cluj Napoca, a starting point for the user to find out about this place.
+
+### Scope
+For the user, I wanted to provide some brief information that will arouse the interest of visiting this city.
+
+### Structure
+The main structure of the site comprises five sections, modals for images gallery, a few links to the external pages of the institutions that supported this project, as well as to their social media pages. The navbar is positioned at the top and is fixed, so it can be viewed permanently, even when scrooling. For a more enjoyable browsing experience, I used html {scroll-behavior: smooth;} so that navigating from one section to another would be smooth. Also, the left side of the navbar contains the website name and a logo created with Font Awesome. In small screens, the navbar will collapse into a "hamburger" icon. When the icon is clicked, the navbar will expand and show the whole menu.
+
+The main image has a backwards transform scale animation for an attractive design. The images in the About and Subscribe sections have a transition on hover, also for a special design.
+
+Also, the images in the Gallery section, besides the modal use for viewing, have a grow shadow on hover effect to indicate to the user when selecting a certain image. This effect was made possible by importing an external Hover.css library as I showed below.
+
+For the video section, I used a video presentation of the city of Cluj Napoca produced by the company Lazar for the City Hall of Cluj Napoca after obtaining its takeover agreement, which can be consulted [here](docs/agree-to-use.pdf).
+
+The Subscribe section is a live one, meaning that the user can subscribe to receive a newslatter by entering their first name, last name and email address. The data is retrieved by an external server hosted by mailchimp.com, where I have a free user account. Also, after completing the subscription, the user is redirected to the subscribe.html page which displays a successful subscription message. This page is a clone of the main page from which the previous sections were deleted.
+
+### Skeleton
+The website has been structured in one single page with five simple and concise sections, plus landing page, footer and succesfully subscribe message page, that will arouse the user's curiosity to document about this land of legends and, why not, to visit it: 
+[Home](wireframes/landing-page.jpg);
+[About](wireframes/about-section.jpg);
+[Visit](wireframes/visit-section.jpg);
+[Gallery](wireframes/gallery-section.jpg);
+[Video](wireframes/video-section.jpg);
+[Subscribe](wireframes/subscribe-section.jpg);
+[Footer](wireframes/footer-section.jpg)
+[Succesfully Subscribe](wireframes/succ-subscribe-section.jpg).
+
+### Surface
+The color scheme chosen by me is also a minimalist one. The main color used is # 782b1e, which was extracted from the main image using Adobe Color tool.
 
 ## Features
 This initial version of the website has some brief features so that the user can find general information about Cluj Napoca. In the future, the website will offer more functionalities such as a section with a more detailed presentation of the places to visit but also others that I have detailed below.
@@ -32,7 +61,8 @@ As I said above, in the future the website will include more functionalities suc
 To create this website, several technologies were used, as well as some frameworks, libraries and tools detailed below:
 * HTML5
 * CSS3
-* [Bootstrap (4.4.1)](https://getbootstrap.com/) and [BootstrapCDN](https://getbootstrap.com/docs/4.4/getting-started/download/#bootstrapcdn) JS, jQuery and Popper.js
+* [Bootstrap (4.4.1)](https://getbootstrap.com/)
+* [BootstrapCDN](https://getbootstrap.com/docs/4.4/getting-started/download/#bootstrapcdn) JS, jQuery and Popper.js
 * [Hoover.css](http://ianlunn.github.io/Hover/) by [Ian Lunn](https://ianlunn.co.uk/)
 * [Font Awesome](https://fontawesome.com)
 
@@ -44,10 +74,15 @@ Also, the following tools were used:
 * Pick colors Eye Dropper Chrome extension [http://eye-dropper.kepi.cz](http://eye-dropper.kepi.cz/)
 * Import Fonts [https://fonts.google.com](https://fonts.google.com/)
 * Simple wireframe maker [https://wireframe.cc](https://wireframe.cc/)
-* Learned from [https://w3schools.com](https://www.w3schools.com/)
 * HTML Validation [https://validator.w3.org](https://validator.w3.org/)
 * CSS Validation [https://jigsaw.w3.org](https://jigsaw.w3.org/css-validator/)
 * CSS Autoprefixer [https://autoprefixer.github.io](https://autoprefixer.github.io/)
+* Visual Studio Code [https://code.visualstudio.com](https://code.visualstudio.com/)
+* Git installed on local device [https://git-scm.com](https://git-scm.com/)
+* Github for host the deployed website and repository of all previous versions [https://github.com](https://github.com/)
+* Testing used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
+* Testing used [Cross Browser Testing](https://app.crossbrowsertesting.com/test-center)
+* Learned from [https://w3schools.com](https://www.w3schools.com/)
 
 ## Testing
 *under construction*
