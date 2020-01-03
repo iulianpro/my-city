@@ -26,20 +26,12 @@ The main image has a backwards transform scale animation for an attractive desig
 
 Also, the images in the Gallery section, besides the modal use for viewing, have a grow shadow on hover effect to indicate to the user when selecting a certain image. This effect was made possible by importing an external Hover.css library as I showed below.
 
-For the video section, I used a video presentation of the city of Cluj Napoca produced by the company Lazar for the City Hall of Cluj Napoca after obtaining its takeover agreement, which can be consulted [here](docs/agree-to-use.pdf).
+For the video section, I used a video presentation of the city of Cluj Napoca produced by the company Lazar for the City Hall of Cluj Napoca after obtaining its takeover agreement, which can be consulted [here](assets/docs/agree-to-use.pdf).
 
 The Subscribe section is a live one, meaning that the user can subscribe to receive a newslatter by entering their first name, last name and email address. The data is retrieved by an external server hosted by mailchimp.com, where I have a free user account. Also, after completing the subscription, the user is redirected to the subscribe.html page which displays a successful subscription message. This page is a clone of the main page from which the previous sections were deleted.
 
 ### Skeleton
-The website has been structured in one single page with five simple and concise sections, plus landing page, footer and succesfully subscribe message page, that will arouse the user's curiosity to document about this land of legends and, why not, to visit it: 
-[Home](wireframes/landing-page.jpg);
-[About](wireframes/about-section.jpg);
-[Visit](wireframes/visit-section.jpg);
-[Gallery](wireframes/gallery-section.jpg);
-[Video](wireframes/video-section.jpg);
-[Subscribe](wireframes/subscribe-section.jpg);
-[Footer](wireframes/footer-section.jpg)
-[Succesfully Subscribe](wireframes/succ-subscribe-section.jpg).
+The website has been structured in one single page with five simple and concise sections, plus landing page, footer and succesfully subscribe message page, that will arouse the user's curiosity to document about this land of legends and, why not, to visit it. The wireframes can be viewed here: [Home](wireframes/landing-page.jpg); [About](wireframes/about-section.jpg); [Visit](wireframes/visit-section.jpg); [Gallery](wireframes/gallery-section.jpg); [Video](wireframes/video-section.jpg); [Subscribe](wireframes/subscribe-section.jpg); [Footer](wireframes/footer-section.jpg); [Succesfully Subscribe Page](wireframes/succ-subscribe-section.jpg).
 
 ### Surface
 The color scheme chosen by me is also a minimalist one. The main color used is # 782b1e, which was extracted from the main image using Adobe Color tool.
