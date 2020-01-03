@@ -417,7 +417,8 @@ input[type=email]:focus {
 }
 
 @media (max-width: 992px) {
-    .callout-img, .bg-design {
+    .callout-img,
+    .bg-design {
         background-attachment: scroll;
     }
 }
