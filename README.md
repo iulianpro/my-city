@@ -104,7 +104,21 @@ The results of the tests performed with [Cross Browser Testing](https://app.cros
 * [Windows 10  Firefox 71](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35086987/d5917eab)
 
 ## Deployment
-*under construction*
+For the project deployment, I used three resources, GitHub for host the deployed website and repository of all versions, Git that I installed locally and Visual Studio Code, my favorite IDE editor.
+
+The steps taken were the following:
+1. I created a repository on Github, in this case named "my-city"
+2. In the locally installed VSC editor I opened a new terminal
+3. In my workspace I created a new directory with the same repository name created on Github with ```mkdir my-city```
+4. I go up to the new directory
+5. I initialized ```git init```
+6. I created the index.htnl document (although now I know, I had to create the README.md document first)
+7. I initiated the ```git add index.html``` command
+8. I initiated the ```git commit -m "first commit"``` command 
+9. I initiated the ```git remote add origin https://github.com/iulianpro/my-city.git``` command 
+10. I initiated the ```git push -u origin master``` command
+
+In this way, the first index.html document was uploaded to Github.
 
 ## Credits
 
