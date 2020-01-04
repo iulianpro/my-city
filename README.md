@@ -120,6 +120,14 @@ The steps taken were the following:
 
 In this way, the first index.html document was uploaded to Github.
 
+To implement the website on Github pages:
+
+* I selected Repository from the Github Dashboard.
+* I navigated to *Settings* and to the *Github Pages* section.
+* From the *Source* section, I clicked on the drop-down menu and selected *Main Branch* from the associated list.
+* Once *Main Branch* is selected, the page has been automatically refreshed, with a detailed ribbon display *Github Source Saved Pages* indicating the successful implementation.
+* The link to the website I found in the *Github Pages* section, with a ribbon notification that states: "https://iulianpro.github.io/my-city/"
+
 ## Credits
 
 ### Content
