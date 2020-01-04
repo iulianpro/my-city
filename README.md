@@ -89,19 +89,19 @@ In the Subscribe section, I tested the optimal functioning of the fields, first 
 
 The footer section has been tested to verify responsiveness across devices, the optimal functioning of both internal and external links. External links open in a new page so that the user does not leave the page on which they are located. The "Insta Feed" subsection is dysfunctional and was created to balance footer content on large screens. Also, it is only displayed on the screens lg and xl.
 
-I also tested the website for HTML and CSS validation with HTML Validation [https://validator.w3.org](https://validator.w3.org/) and CSS Validation [https: // jigsaw. w3.org](https://jigsaw.w3.org/css-validator/).
+I also tested the website for HTML and CSS code validation with [HTML Validation](https://validator.w3.org/) and [CSS Validation](https://jigsaw.w3.org/css-validator/).
 
-The results of the tests performed with [Cross Browser Testing] (https://app.crossbrowsertesting.com/test-center) can be consulted below:
-[iPhone 11 Pro / 13.2  Mobile Safari 13](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35088253/5e97584b)
-[Android Nexus 9 / 5.0  Opera Mobile 42](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35088175/7bc2afe8)
-[Android Nexus 9 / 5.0  Firefox Mobile 53](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087947/638e0607)
-[Android Nexus 9 / 5.0  Dolphin Mobile 11.5](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087861/0816b09c)
-[Android Nexus 9 / 5.0  Chrome Mobile 58](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087649/3d533aff)
-[Mac OSX 10.14  Safari 12](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087451/6b686933)
-[Windows 10  Google Chrome 79](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35086819/3dfadd4a)
-[Windows 10  Opera 63](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087285/11239ae9)
-[Windows 10  Microsoft Edge 17](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087075/3942a830)
-[Windows 10  Firefox 71](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35086987/d5917eab)
+The results of the tests performed with [Cross Browser Testing](https://app.crossbrowsertesting.com/test-center) can be consulted below:
+* [iPhone 11 Pro / 13.2  Mobile Safari 13](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35088253/5e97584b)
+* [Android Nexus 9 / 5.0  Opera Mobile 42](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35088175/7bc2afe8)
+* [Android Nexus 9 / 5.0  Firefox Mobile 53](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087947/638e0607)
+* [Android Nexus 9 / 5.0  Dolphin Mobile 11.5](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087861/0816b09c)
+* [Android Nexus 9 / 5.0  Chrome Mobile 58](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087649/3d533aff)
+* [Mac OSX 10.14  Safari 12](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087451/6b686933)
+* [Windows 10  Google Chrome 79](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35086819/3dfadd4a)
+* [Windows 10  Opera 63](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087285/11239ae9)
+* [Windows 10  Microsoft Edge 17](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087075/3942a830)
+* [Windows 10  Firefox 71](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35086987/d5917eab)
 
 ## Deployment
 *under construction*
