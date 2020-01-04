@@ -26,7 +26,7 @@ The main image has a backwards transform scale animation for an attractive desig
 
 Also, the images in the Gallery section, besides the modal use for viewing, have a grow shadow on hover effect to indicate to the user when selecting a certain image. This effect was made possible by importing an external Hover.css library as I showed below.
 
-For the video section, I used a video presentation of the city of Cluj Napoca produced by the company Lazar for the City Hall of Cluj Napoca after obtaining its takeover agreement, which can be consulted [here](assets/docs/agree-to-use.pdf).
+For the video section, I used a video presentation of the city of Cluj Napoca produced by the Lazar company for the Cluj Napoca City Hall after obtaining its takeover agreement, which can be consulted [here](assets/docs/agree-to-use.pdf).
 
 The Subscribe section is a live one, meaning that the user can subscribe to receive a newslatter by entering their first name, last name and email address. The data is retrieved by an external server hosted by mailchimp.com, where I have a free user account. Also, after completing the subscription, the user is redirected to the subscribe.html page which displays a successful subscription message. This page is a clone of the main page from which the previous sections were deleted.
 
@@ -77,7 +77,31 @@ Also, the following tools were used:
 * Learned from [https://w3schools.com](https://www.w3schools.com/)
 
 ## Testing
-*under construction*
+The website was tested both after the creation of each section separately but also after its completion. I tested all the functionality in the main browsers that ran on several operating systems: Chrome, Firefox, Opera, Microsoft Edge, Safari, Dolphin, in Windows 10, Mac OSX 10.14, Android and iOS operating systems, both physically on different personal and friends' devices, as well as the Cross Browser Testing tool (https://app.crossbrowsertesting.com/test-center). For full responsibility, for the whole site, I used Bootstrap 4.4.1.
+
+Testing during section construction was done primarily with Chrome DevTools, making sure each element works correctly and optimally, including responsiveness across devices. For navbar, I tested the functionality of all links, including the site brand. I also tested the color change of links to hover and toggle and collapse functioning in small devices. I also tested the functionality of the animated background, which I created with the Love Running project as a model. During the tests, I noticed that background-attachment: fixed; is not functional in the iOS Safari browser. To fix the problem, I used @media (max-width: 992px) {.callout-img, .bg-design {background-attachment: scroll;}}. After a new test, the respective browser displays the background image.
+
+The About section launched the challenge of disproportionality between the image on the left and the text on the right in different screens, which is why in medium and large screens, I chose to hide 1 paragraph. Also, I also tested the functionality of the transition effect transform scale 1.1 of the image. The Visit section has been tested to verify responsiveness across devices and resolutions.
+
+The Gallery section has been tested to verify the optimal functioning of grow shadow on hover, modal functionality, display of the closing icon over the modal image as well as the responsiveness across devices. I found that in some browsers less important, the close icon is not displayed. Unfortunately for this problem, I did not identify a solution. For the video section I tested the functionality of playing video images displayed on the website using iframes as well as responsiveness.
+
+In the Subscribe section, I tested the optimal functioning of the fields, first name, last name and email, as well as changing the color of the box on hover, the optimal functioning of the "Subscribe" button, blocking the sending of data if the fields are not completed or the email is completed incorrectly, the functionality of transmitting the collected data to the mailchimp.com server, as well as redirecting the user to the subscribe.html page, which displays a successful subscribe message. I have not considered for the moment, the scenario where the user accidentally tries to subscribe twice with the same email address for the newsletter. In this case, the user is redirected to a mailchimp.com page that displays an error message.
+
+The footer section has been tested to verify responsiveness across devices, the optimal functioning of both internal and external links. External links open in a new page so that the user does not leave the page on which they are located. The "Insta Feed" subsection is dysfunctional and was created to balance footer content on large screens. Also, it is only displayed on the screens lg and xl.
+
+I also tested the website for HTML and CSS validation with HTML Validation [https://validator.w3.org](https://validator.w3.org/) and CSS Validation [https: // jigsaw. w3.org](https://jigsaw.w3.org/css-validator/).
+
+The results of the tests performed with [Cross Browser Testing] (https://app.crossbrowsertesting.com/test-center) can be consulted below:
+[iPhone 11 Pro / 13.2  Mobile Safari 13](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35088253/5e97584b)
+[Android Nexus 9 / 5.0  Opera Mobile 42](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35088175/7bc2afe8)
+[Android Nexus 9 / 5.0  Firefox Mobile 53](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087947/638e0607)
+[Android Nexus 9 / 5.0  Dolphin Mobile 11.5](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087861/0816b09c)
+[Android Nexus 9 / 5.0  Chrome Mobile 58](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087649/3d533aff)
+[Mac OSX 10.14  Safari 12](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087451/6b686933)
+[Windows 10  Google Chrome 79](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35086819/3dfadd4a)
+[Windows 10  Opera 63](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087285/11239ae9)
+[Windows 10  Microsoft Edge 17](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087075/3942a830)
+[Windows 10  Firefox 71](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35086987/d5917eab)
 
 ## Deployment
 *under construction*
