@@ -118,9 +118,7 @@ The steps taken were the following:
 9. I initiated the ```git remote add origin https://github.com/iulianpro/my-city.git``` command 
 10. I initiated the ```git push -u origin master``` command
 
-In this way, the first index.html document was uploaded to Github.
-
-To implement the website on Github pages:
+In this way, the first index.html document was uploaded to Github. To implement the website on Github pages:
 
 * I selected Repository from the Github Dashboard.
 * I navigated to *Settings* and to the *Github Pages* section.
