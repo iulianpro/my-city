@@ -138,6 +138,6 @@ The text of the About section was inspired by [Wikipedia](https://en.wikipedia.o
 * Video images with the written consent of http://clujbusiness.ro website owned by [Cluj Napoca City Hall](assets/docs/agree-to-use.pdf)
 
 ### Acknowledgements
-To create this website, an inspiration but at the same time a source from which I learned many technical elements, was [https://w3schools.com] (https://www.w3schools.com/). I would also like to thank Twitter for creating Bootstrap which is a magic framework. I would also like to thank the Code Institute instructors who are doing a great job and from where I learned a lot in just a few months. I would also like to thank the colleagues with whom I had discussions on the Slack channels, from where I also had to learn. And last but not least, I thank my mentor Simen Daehlin.
+To create this website, an inspiration but at the same time a source from which I learned many technical elements, was [https://w3schools.com](https://www.w3schools.com/). I would also like to thank Twitter for creating Bootstrap which is a magic framework. I would also like to thank the Code Institute instructors who are doing a great job and from where I learned a lot in just a few months. I would also like to thank the colleagues with whom I had discussions on the Slack channels, from where I also had to learn. And last but not least, I thank my mentor Simen Daehlin.
 
 *This website was created for educational purposes, ianuarie 2020.*
