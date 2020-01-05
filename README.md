@@ -1,9 +1,9 @@
 # My City | Cluj Napoca
 User Centric Frontend Development Milestone Project - Code Institute
 
-This is the website I created to promote my city. Cluj Napoca is a city in full development both economically and tourist, with a rich historical heritage. Transylvania is an area full of vampire legends and Cluj Napoca is no exception. As a visitor you will discover in the heart of Transylvania a multitude of ancient tourist objectives, local traditions dating back centuries, but you will also discover local gastronomy, famous festivals throughout Europe as well as warm people and ready to welcome guests.
+This is the website I created to promote my city. Cluj Napoca is a city in full development both economically and tourist, with a rich historical heritage. Transylvania is an area full of vampire legends and Cluj Napoca is no exception. As a visitor you will discover in the heart of Transylvania a multitude of ancient tourist attractions, local traditions dating back centuries, but you will also discover local gastronomy, famous festivals throughout Europe as well as warm people and ready to welcome guests.
 
-Potential readers will find out new things about this area of Transylvania and photos and video images will make them at least curious to visit the city. The project was made possible with the support of Cluj Napoca City Hall.
+Potential readers will find out new things about this part of Transylvania and photos and video images will make them at least curious to visit the city. The project was made possible with the support of Cluj Napoca City Hall.
 
 ## Demo
 A live demo can be find [here](https://iulianpro.github.io/my-city/index.html)
@@ -20,7 +20,7 @@ My goal was to create a minimalist and user-friendly website as possible, to pre
 For the user, I wanted to provide some brief information that will arouse the interest of visiting this city.
 
 ### Structure
-The main structure of the site comprises five sections, modals for images gallery, a few links to the external pages of the institutions that supported this project, as well as to their social media pages. The navbar is positioned at the top and is fixed, so it can be viewed permanently, even when scrooling. For a more enjoyable browsing experience, I used html {scroll-behavior: smooth;} so that navigating from one section to another would be smooth. Also, the left side of the navbar contains the website name and a logo created with Font Awesome. In small screens, the navbar will collapse into a "hamburger" icon. When the icon is clicked, the navbar will expand and show the whole menu.
+The main structure of the site comprises five sections, modals for images gallery, a few links to the external pages of the institutions that supported this project, as well as to their social media pages. The navbar is positioned at the top and is fixed, so it can be viewed permanently, even when scrooling. For a more enjoyable browsing experience, I used ```html {scroll-behavior: smooth;}``` so that navigating from one section to another would be smooth. Also, the left side of the navbar contains the website name and a logo created with Font Awesome. In small screens, the navbar will collapse into a "hamburger" icon. When the icon is clicked, the navbar will expand and show the whole menu.
 
 The main image has a backwards transform scale animation for an attractive design. The images in the About and Subscribe sections have a transition on hover, also for a special design.
 
