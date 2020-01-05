@@ -118,7 +118,7 @@ The steps taken were the following:
 9. I initiated the ```git remote add origin https://github.com/iulianpro/my-city.git``` command 
 10. I initiated the ```git push -u origin master``` command
 
-In this way, the first index.html document was uploaded to Github. To implement the website on Github pages:
+In this way, the first index.html document was uploaded to Github. In order to upload the updated versions, I initiated in the VSC editor commands 7, 8 and 10. To implement the website on Github pages:
 
 * I selected Repository from the Github Dashboard.
 * I navigated to *Settings* and to the *Github Pages* section.
@@ -129,13 +129,15 @@ In this way, the first index.html document was uploaded to Github. To implement 
 ## Credits
 
 ### Content
-*under construction*
+The text of the About section was inspired by [Wikipedia](https://en.wikipedia.org/wiki/Cluj-Napoca) but not taken as such, I adapted it into a personal version by adding ideas. The Visit section is entirely conceived and written by me, knowing the city of Cluj Napoca, I lived in this city for many years. However, I must remind the employees of the Cluj Napoca City Hall, who were very receptive to expressing their agreement to use the video material, which brings additional relevant information to this website.
 
 ### Media
 * Vector icons for Visit section from [https://flaticon.com](https://flaticon.com)
 * Purchased images from [Adobe Stock Images](https://stock.adobe.com)
 * Free images from the Facebook account of [Cluj Napoca Mayor](https://www.facebook.com/EmilBoc.Intotdeaunapentruclujeni/?epa=SEARCH_BOX)
-* Video images with the written consent of [Cluj Napoca City Hall](#)
+* Video images with the written consent of http://clujbusiness.ro website owned by [Cluj Napoca City Hall](assets/docs/agree-to-use.pdf)
 
 ### Acknowledgements
-*under construction*
+To create this website, an inspiration but at the same time a source from which I learned many technical elements, was [https://w3schools.com] (https://www.w3schools.com/). I would also like to thank Twitter for creating Bootstrap which is a magic framework. I would also like to thank the Code Institute instructors who are doing a great job and from where I learned a lot in just a few months. I would also like to thank the colleagues with whom I had discussions on the Slack channels, from where I also had to learn. And last but not least, I thank my mentor Simen Daehlin.
+
+*This website was created for educational purposes, ianuarie 2020.*
