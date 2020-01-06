@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700');
-
-/* --- general -- */
+/* general */
 
 html {
     scroll-behavior: smooth;
@@ -57,8 +56,8 @@ body {
 
 .bgr-navbar {
     background-color: #000000;
-    -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.55);
-            box-shadow: 0 0 15px 0 rgba(0,0,0,0.55);
+    -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.55);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.55);
 }
 
 .navbar-brand {
@@ -99,50 +98,46 @@ body {
 
 .callout-img {
     height: 100vh;
-
     background: url("..//images/bg-collout.jpg") no-repeat center center;
     background-size: cover;
-    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     position: relative;
     -webkit-animation-name: main-zoom;
-            animation-name: main-zoom;
+    animation-name: main-zoom;
     -webkit-animation-duration: 5s;
-            animation-duration: 5s;
+    animation-duration: 5s;
     -webkit-animation-fill-mode: backwards;
-            animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
     background-attachment: fixed;
 }
 
 @-webkit-keyframes main-zoom {
     from {
         -webkit-transform: scale(1.2);
-                transform: scale(1.2);
+        transform: scale(1.2);
     }
-
     to {
         -webkit-transform: scale(1);
-                transform: scale(1);
+        transform: scale(1);
     }
 }
 
 @keyframes main-zoom {
     from {
         -webkit-transform: scale(1.2);
-                transform: scale(1.2);
+        transform: scale(1.2);
     }
-
     to {
         -webkit-transform: scale(1);
-                transform: scale(1);
+        transform: scale(1);
     }
 }
 
@@ -152,7 +147,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* main text */
@@ -207,8 +202,8 @@ body {
 
 .grow img:hover {
     -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
     -webkit-transition: 0.5s ease-in-out;
     -o-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
@@ -375,27 +370,27 @@ input[type=email]:focus {
 
 .footer-content i:hover {
     color: #b8a09e;
- }
+}
 
 .footer-content a:hover {
     color: #b8a09e;
- }
+}
 
- .social-links i {
-     font-size: 1.6rem;
-     margin-left: 0;
- }
+.social-links i {
+    font-size: 1.6rem;
+    margin-left: 0;
+}
 
- .social-links i:hover {
-     color: #b8a09e;
- }
+.social-links i:hover {
+    color: #b8a09e;
+}
 
- .insta-feed {
-     width: 75px;
-     height: 42px;
-     margin-right: 5px;
-     margin-bottom: 5px;
- }
+.insta-feed {
+    width: 75px;
+    height: 42px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
 
 /* media query */
 
@@ -403,11 +398,9 @@ input[type=email]:focus {
     .section-content {
         margin: 0 50px;
     }
-    
     .col-left-info {
         margin: 10px 0 10px 20px;
     }
-
     .col-right-info {
         margin: 0 20px 0 0;
         padding: 20px 0 20px 20px;
@@ -415,8 +408,7 @@ input[type=email]:focus {
 }
 
 @media (max-width: 992px) {
-    .callout-img,
-    .bg-design {
+    .callout-img, .bg-design {
         background-attachment: scroll;
     }
 }
@@ -425,11 +417,9 @@ input[type=email]:focus {
     .section-content {
         margin: 0 100px;
     }
-
     .col-left-info {
         margin: 20px 0 20px 50px;
     }
-
     .col-right-info {
         margin: 0 50px 0 0;
     }
