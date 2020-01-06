@@ -1041,12 +1041,22 @@
                         <form id="form" action="https://outlook.us4.list-manage.com/subscribe/post" method="POST">
                             <input type="hidden" name="u" value="6f969697b37884de73812d29d">
                             <input type="hidden" name="id" value="2ee38e0ea4">
-                            <input type="text" name="MERGE1" id="MERGE1" class="form-control text-input"
-                                placeholder="First Name" required /><br>
-                            <input type="text" name="MERGE2" id="MERGE2" class="form-control text-input"
-                                placeholder="Last Name" required /><br>
-                            <input type="email" name="MERGE0" id="MERGE0" class="form-control text-input"
-                                placeholder="Email" required /><br>
+                            <div class="form-group">
+                                <input type="text" class="form-control text-input" name="MERGE1" id="MERGE1"
+                                    placeholder="First Name" required />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control text-input" name="MERGE2" id="MERGE2"
+                                    placeholder="Last Name" required />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control text-input" name="MERGE0" id="MERGE0"
+                                    placeholder="Email" required />
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control text-input" rows="3" name="MERGE3" id="MERGE3"
+                                    placeholder="Your message" required></textarea>
+                            </div>
                             <div class="form-row text-center">
                                 <div class="col">
                                     <button type="submit" class="bttn">Send</button>

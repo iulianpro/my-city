@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
-    <!-- External CSS Hoover library -->
+    <!-- External CSS Hover library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -75,15 +75,25 @@
                             <form id="form" action="https://outlook.us4.list-manage.com/subscribe/post" method="POST">
                                 <input type="hidden" name="u" value="6f969697b37884de73812d29d">
                                 <input type="hidden" name="id" value="2ee38e0ea4">
-                                <input type="text" name="MERGE1" id="MERGE1" class="form-control text-input"
-                                    placeholder="First Name" required /><br>
-                                <input type="text" name="MERGE2" id="MERGE2" class="form-control text-input"
-                                    placeholder="Last Name" required /><br>
-                                <input type="email" name="MERGE0" id="MERGE0" class="form-control text-input"
-                                    placeholder="Email" required /><br>
+                                <div class="form-group">
+                                    <input type="text" class="form-control text-input" name="MERGE1" id="MERGE1"
+                                        placeholder="First Name" required />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control text-input" name="MERGE2" id="MERGE2"
+                                        placeholder="Last Name" required />
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control text-input" name="MERGE0" id="MERGE0"
+                                        placeholder="Email" required />
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control text-input" rows="3" name="MERGE3" id="MERGE3"
+                                        placeholder="Your message" required></textarea>
+                                </div>
                                 <div class="form-row text-center">
                                     <div class="col">
-                                        <button type="submit" class="bttn-disabled" disabled>Submitted</button>
+                                        <button type="submit" class="bttn">Send</button>
                                     </div>
                                 </div>
                             </form>
