@@ -273,13 +273,17 @@ html {
     text-align: center;
 }
 
+.modal.fade {
+    padding-right: 0!important;
+}
+
 /* --- video section -- */
 
 #video {
     background-color: #f9f9f9;
 }
 
-/* --- subscribe section -- */
+/* --- Contact section -- */
 
 #form {
     margin: 20px 20px 0;
@@ -323,7 +327,7 @@ input[type=email]:focus {
     outline: none;
 }
 
-.subscribed-msg {
+.sent-msg {
     font-size: 1.4rem;
     font-weight: 200;
     margin-top: 30px;
