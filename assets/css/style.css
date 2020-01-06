@@ -1,8 +1,14 @@
-/* --- Google Font import from https://fonts.google.com/ --- */
-
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700');
 
 /* --- general -- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.pointer {
+    cursor: pointer;
+}
 
 body {
     font-family: "Poppins", sans-serif;
@@ -13,10 +19,6 @@ body {
 
 .uppercase {
     text-transform: uppercase;
-}
-
-html {
-    scroll-behavior: smooth; /* --- sintex inspired from https://www.w3schools.com/cssref/pr_scroll-behavior.asp --- */
 }
 
 .text-center {
@@ -49,13 +51,9 @@ html {
     font-weight: 200;
 }
 
-.pointer {
-    cursor: pointer;  /* --- sintax inspired from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_cursor --- */
-}
+/* navbar */
 
-/* --- navbar -- */
-
-/* --- prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) --- */
+/* prefixed with https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) z*/
 
 .bgr-navbar {
     background-color: #000000;
@@ -92,7 +90,7 @@ html {
     color: #ffffff;
 }
 
-/* --- main image -- */
+/* main image */
 
 #main-image {
     overflow: hidden;
@@ -157,7 +155,7 @@ html {
     background-color: rgba(0,0,0,0.4);
 }
 
-/* --- main text -- */
+/* main text */
 
 .callout {
     color: #f9f9f9;
@@ -176,7 +174,7 @@ html {
     line-height: 1.3;
 }
 
-/* --- about section -- */
+/* about section */
 
 .section-content {
     margin: 0 10px;
@@ -216,7 +214,7 @@ html {
     transition: 0.5s ease-in-out;
 }
 
-/* --- visit section -- */
+/* visit section */
 
 #visit {
     background-color: #f9f9f9;
@@ -242,7 +240,7 @@ html {
     padding-bottom: 40px;
 }
 
-/* --- design background --- */
+/* design background */
 
 .bg-design {
     height: 30vh;
@@ -254,7 +252,7 @@ html {
     background-attachment: fixed;
 }
 
-/* --- gallery section -- */
+/* gallery section */
 
 .modal-content {
     position: relative;
@@ -277,13 +275,13 @@ html {
     padding-right: 0!important;
 }
 
-/* --- video section -- */
+/* video section */
 
 #video {
     background-color: #f9f9f9;
 }
 
-/* --- Contact section -- */
+/* Contact section */
 
 #form {
     margin: 20px 20px 0;
@@ -297,7 +295,7 @@ html {
     border: 1px solid #782b1e;
 }
 
-/* --- sintax inspired from https://www.w3schools.com/css/css_form.asp --- */
+/* sintax learned from https://www.w3schools.com/css/css_form.asp */
 
 input[type=text]:focus {
     background-color: #f9f9f9;
@@ -308,8 +306,6 @@ input[type=email]:focus {
     background-color: #f9f9f9;
     outline: none;
 }
-
-/* --- /sintax inspired --- */
 
 .bttn {
     background-color: #782b1e;
@@ -335,7 +331,7 @@ input[type=email]:focus {
 }
 
 .bttn-disabled {
-    cursor: not-allowed; /* --- sintax inspired from https://www.w3schools.com/cssref/tryit.asp?filename=trycss_cursor --- */
+    cursor: not-allowed;
     border: 1px solid #6c6c6c;
     background-color: #f9f9f9;
     padding: 5px 25px;
@@ -343,7 +339,7 @@ input[type=email]:focus {
     border-radius: 10px;
 }
 
-/* --- footer section -- */
+/* footer section */
 
 .section-site-footer {
     padding-top: 75px;
@@ -401,7 +397,7 @@ input[type=email]:focus {
      margin-bottom: 5px;
  }
 
-/* --- media query -- */
+/* media query */
 
 @media (min-width: 768px) {
     .section-content {
