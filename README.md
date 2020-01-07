@@ -22,7 +22,7 @@ Potential readers will find out new things about this part of Transylvania and p
     - [Content](https://github.com/iulianpro/my-city#content)
     - [Media](https://github.com/iulianpro/my-city#media)
     - [Acknowledgements](https://github.com/iulianpro/my-city#acknowledgements)
-___
+***
 > ## UX
 
 ### User stories
