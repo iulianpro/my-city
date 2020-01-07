@@ -2,7 +2,7 @@
 
 This is the website I created to promote my city. Cluj Napoca is a city in full development both economically and tourist, with a rich historical heritage. Transylvania is an area full of vampire legends and Cluj Napoca is no exception. As a visitor you will discover in the heart of Transylvania a multitude of ancient tourist attractions, local traditions dating back centuries, but you will also discover local gastronomy, famous festivals throughout Europe as well as warm people and ready to welcome guests.
 
-Potential readers will find out new things about this part of Transylvania and photos and video images will make them at least curious to visit the city. The project was made possible with the support of Cluj Napoca City Hall.
+Potential users will find out new things about this part of Transylvania and photos and video images will make them at least curious to visit the city. The project was made possible with the support of Cluj Napoca City Hall.
 
 > ## Contents
 * [UX](https://github.com/iulianpro/my-city#ux)
@@ -32,7 +32,7 @@ As a user, I want to:
 * that when accessing the website, to see a landig page that will arouse my curiosity to navigate further;
 * to find out new information about a future holiday destination;
 * to see pictures and video images with the location described to give me an opinion about this city;
-* to can send a message if I want to find out more details about this location;
+* when I use de form, to can send a message if I want to find out more details about this location;
 
 As a owner I want to:
 * make known to the public the existence of a city that can be a perfect destination for a city break for example;
@@ -52,12 +52,12 @@ The main image has a backwards transform scale animation for an attractive desig
 
 Also, the images in the Gallery section, besides the modal use for viewing, have a grow shadow on hover effect to indicate to the user when selecting a certain image. This effect was made possible by importing an external Hover.css library as I showed below.
 
-For the video section, I used a video presentation of the city of Cluj Napoca produced by the Lazar company for the Cluj Napoca City Hall after obtaining its takeover agreement, which I can make available if necessary.
+For the video section, I used a video presentation of the city of Cluj Napoca produced by the Lazar company for the Cluj Napoca City Hall after obtaining its takeover agreement, which I can make it available if necessary.
 
 The Contact section is a live one, meaning that the user can send a message by entering their first name, last name, email address and some message. The data is retrieved by an external server hosted by mailchimp.com, where I have a free user account. Also, after the user presses the send button and sends the message, he is redirected to the contact.html page which displays a successful message sent. This page is a clone of the main page from which the previous sections were deleted.
 
 ### Skeleton
-The website has been structured in one single page with five simple and concise sections, plus landing page, footer and succesfully message sent, contact.html page, that will arouse the user's curiosity to document about this land of legends and, why not, to visit it. The wireframes can be viewed here: 
+The website has been structured in one single page with five simple and concise sections, plus landing page, footer and succesfully message sent page (contact.html page). The wireframes can be viewed here: 
 * [Landing Page](wireframes/landing-page.jpg); 
 * [About Section](wireframes/about-section.jpg);
 * [Visit Section](wireframes/visit-section.jpg);
@@ -121,15 +121,15 @@ Also, the following tools were used:
 > ## Testing
 The website was tested both after the creation of each section separately but also after its completion. I tested all the functionality in the main browsers that ran on several operating systems: Chrome, Firefox, Opera, Microsoft Edge, Safari, Dolphin, in Windows 10, Mac OSX 10.14, Android and iOS operating systems, both physically on different personal and friends' devices, as well as the [Cross Browser Testing tool](https://app.crossbrowsertesting.com/test-center). For full responsiveness, for the whole site, I used Bootstrap 4.4.1.
 
-Testing during section construction was done primarily with Chrome DevTools, making sure each element works correctly and optimally, including responsiveness across devices. For navbar, I tested the functionality of all links, including the site brand. I also tested the color change of links to hover and toggle and collapse functioning in small devices. I also tested the functionality of the animated background, which I created with the Love Running project as a model. During the tests, I noticed that background-attachment: fixed; is not functional in the iOS Safari browser. To fix the problem, I used in media query ```@media (max-width: 992px) {.callout-img, .bg-design {background-attachment: scroll;}}```. After a new test, the respective browser displays the background image.
+Testing during section construction was done primarily with Chrome DevTools, making sure each element works correctly and optimally, including responsiveness across devices. For navbar, I tested the functionality of all links, including the site brand. I also tested the color change of links to hover and toggle and collapse functioning in small devices. I also tested the functionality of the animated background, which I created with starting from Love Running project. During the tests, I noticed that background-attachment: fixed; is not functional in the iOS Safari browser. To fix the problem, I used in media query ```@media (max-width: 992px) {.callout-img, .bg-design {background-attachment: scroll;}}```. After a new test, the respective browser displays the background image.
 
-The **About** section launched the challenge of disproportionality between the image on the left and the text on the right in different screens, which is why in medium and large screens, I chose to hide 1 paragraph. Also, I also tested the functionality of the transition effect transform scale 1.1 of the image.
+The **About** section launched the challenge of disproportionality between the image on the left and the text on the right in different screens, which is why in medium and large screens, I chose to hide one paragraph. Also, I also tested the functionality of the transition effect transform scale 1.1 of the image.
 
 The **Visit** section has been tested to verify responsiveness across devices and resolutions.
 
-The **Gallery** section has been tested to verify the optimal functioning of grow shadow on hover, modal functionality, display of the closing icon over the modal image as well as the responsiveness across devices. I found that in some browsers less important, the close icon is not displayed. Unfortunately for this problem, I did not identify a solution.
+The **Gallery** section has been tested to verify the optimal functioning of grow shadow on hover, modal functionality, display of the closing icon over the modal dialog image as well as the responsiveness across devices. I found that in some browsers less important, the close icon is not displayed. Unfortunately for this problem, I did not identify a solution.
 
-For the **Video** section I tested the functionality of playing video images displayed on the website using iframes as well as responsiveness.
+For the **Video** section I tested the functionality of playing video images displayed on the website using iframes as well as responsiveness across devices.
 
 In the **Contact** section, I tested the optimal functioning of the fields, first name, last name, email and textarea, as well as changing the color of the box on hover, the optimal functioning of the "Send" button, blocking the sending of data if the fields are not completed or the email is completed incorrectly, all fields being required, the functionality of transmitting the collected data to the mailchimp.com server, as well as redirecting the user to the contact.html page, which displays a successful message sent. For the moment, the user can send a single message from the same email address. If it sends the second message, the mailchimp.com server will display an error message. The functionality will be developed in a future version of the website.
 
