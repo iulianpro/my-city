@@ -70,6 +70,10 @@ The website has been structured in one single page with five simple and concise 
 ### Surface
 The color scheme chosen by me is also a minimalist one. The main color used is # 782b1e, which was extracted from the main image using Adobe Color tool.
 
+Color palette used:
+* ![#782b1e](https://placehold.it/15/782b1e)
+* ![#f9f9f9](https://placehold.it/15/f9f9f9)
+* ![#4d4d4d](https://placehold.it/15/4d4d4d)
 
 > ## Features
 This initial version of the website has some brief features so that the user can find general information about Cluj Napoca. In the future, the website will offer more functionalities such as a section with a more detailed presentation of the places to visit but also others that I have detailed below.
@@ -83,7 +87,6 @@ This initial version of the website has some brief features so that the user can
 
 ### Features Left to Implement
 As I said above, in the future the website will include more functionalities such as a section with a more detailed presentation of places to visit, an interactive map with their location, accommodations, restaurants, caffee shops, various events, but and other features.
-
 
 > ## Technologies Used
 To create this website, several technologies were used, as well as some frameworks, libraries and tools detailed below:
@@ -113,7 +116,6 @@ Also, the following tools were used:
 * Testing with [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
 * Testing with [Cross Browser Testing](https://app.crossbrowsertesting.com/test-center)
 * Learned from [W3schools](https://www.w3schools.com/)
-
 
 > ## Testing
 The website was tested both after the creation of each section separately but also after its completion. I tested all the functionality in the main browsers that ran on several operating systems: Chrome, Firefox, Opera, Microsoft Edge, Safari, Dolphin, in Windows 10, Mac OSX 10.14, Android and iOS operating systems, both physically on different personal and friends' devices, as well as the [Cross Browser Testing tool](https://app.crossbrowsertesting.com/test-center). For full responsiveness, for the whole site, I used Bootstrap 4.4.1.
@@ -146,7 +148,6 @@ The results of the tests performed with [Cross Browser Testing](https://app.cros
 * [Windows 10 / Microsoft Edge 17](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35087075/3942a830)
 * [Windows 10 / Firefox 71](https://app.crossbrowsertesting.com/public/i761c79c22fd3844/livetests/35086987/d5917eab)
 
-
 > ## Deployment
 For developing this project, I used three resources, GitHub for host the deployed website and repository of all versions, Git that I installed locally and Visual Studio Code, my favorite IDE editor.
 
@@ -164,7 +165,6 @@ To run locally, you can clone this repository directly in your favorite editor, 
 ```
 git clone https://github.com/iulianpro/my-city.git
 ```
-
 > ## Credits
 
 ### Content
