@@ -19,7 +19,7 @@ For the user, I wanted to provide some brief information that will arouse the in
 ### Structure
 The main structure of the site comprises five sections, modals for images gallery, a few links to the external pages of the institutions that supported this project, as well as to their social media pages, a video inserted with iframes and a contact form. The navbar is positioned at the top and is fixed, so it can be viewed even when scrooling. For a more enjoyable browsing experience, I used ```html {scroll-behavior: smooth;}``` so that navigating from one section to another would be smooth. Also, the left side of the navbar contains the website name and a logo created with Font Awesome. In small screens, the navbar will collapse into a "hamburger" icon. When the icon is clicked, the navbar will expand and show the whole menu.
 
-The main image has a backwards transform scale animation for an attractive design. The images in the About and Subscribe sections have a transition on hover, also for a special design.
+The main image has a backwards transform scale animation for an attractive design. The images in the About and Contact sections have a transition on hover, also for a special design.
 
 Also, the images in the Gallery section, besides the modal use for viewing, have a grow shadow on hover effect to indicate to the user when selecting a certain image. This effect was made possible by importing an external Hover.css library as I showed below.
 
