@@ -113,7 +113,9 @@ The **About** section launched the challenge of disproportionality between the i
 
 The **Visit** section has been tested to verify responsiveness across devices and resolutions.
 
-The **Gallery** section has been tested to verify the optimal functioning of grow shadow on hover, modal functionality, display of the closing icon over the modal image as well as the responsiveness across devices. I found that in some browsers less important, the close icon is not displayed. Unfortunately for this problem, I did not identify a solution. For the **Video** section I tested the functionality of playing video images displayed on the website using iframes as well as responsiveness.
+The **Gallery** section has been tested to verify the optimal functioning of grow shadow on hover, modal functionality, display of the closing icon over the modal image as well as the responsiveness across devices. I found that in some browsers less important, the close icon is not displayed. Unfortunately for this problem, I did not identify a solution.
+
+For the **Video** section I tested the functionality of playing video images displayed on the website using iframes as well as responsiveness.
 
 In the **Contact** section, I tested the optimal functioning of the fields, first name, last name, email and textarea, as well as changing the color of the box on hover, the optimal functioning of the "Send" button, blocking the sending of data if the fields are not completed or the email is completed incorrectly, all fields being required, the functionality of transmitting the collected data to the mailchimp.com server, as well as redirecting the user to the contact.html page, which displays a successful message sent. for the moment, the user can send a single message from the same email address. If it sends the second message, the mailchimp.com server will display an error message. The functionality will be developed in a future version of the website.
 
