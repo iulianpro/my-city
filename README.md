@@ -71,9 +71,10 @@ The website has been structured in one single page with five simple and concise 
 The color scheme chosen by me is also a minimalist one. The main color used is # 782b1e, which was extracted from the main image using Adobe Color tool.
 
 Color palette used:
-* ![#782b1e](https://placehold.it/50x20/782b1e)
-* ![#f9f9f9](https://placehold.it/50x20/f9f9f9)
-* ![#4d4d4d](https://placehold.it/50x20/4d4d4d)
+* ![#782b1e](https://placehold.it/50x20/782b1e) - #782b1e
+* ![#f9f9f9](https://placehold.it/50x20/f9f9f9) - #f9f9f9
+* ![#000000](https://placehold.it/50x20/000000) - #000000
+* ![#4d4d4d](https://placehold.it/50x20/4d4d4d) - #4d4d4d
 
 > ## Features
 This initial version of the website has some brief features so that the user can find general information about Cluj Napoca. In the future, the website will offer more functionalities such as a section with a more detailed presentation of the places to visit but also others that I have detailed below.
