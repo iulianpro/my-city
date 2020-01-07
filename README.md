@@ -109,7 +109,9 @@ The website was tested both after the creation of each section separately but al
 
 Testing during section construction was done primarily with Chrome DevTools, making sure each element works correctly and optimally, including responsiveness across devices. For navbar, I tested the functionality of all links, including the site brand. I also tested the color change of links to hover and toggle and collapse functioning in small devices. I also tested the functionality of the animated background, which I created with the Love Running project as a model. During the tests, I noticed that background-attachment: fixed; is not functional in the iOS Safari browser. To fix the problem, I used in media query ```@media (max-width: 992px) {.callout-img, .bg-design {background-attachment: scroll;}}```. After a new test, the respective browser displays the background image.
 
-The **About** section launched the challenge of disproportionality between the image on the left and the text on the right in different screens, which is why in medium and large screens, I chose to hide 1 paragraph. Also, I also tested the functionality of the transition effect transform scale 1.1 of the image. The **Visit** section has been tested to verify responsiveness across devices and resolutions.
+The **About** section launched the challenge of disproportionality between the image on the left and the text on the right in different screens, which is why in medium and large screens, I chose to hide 1 paragraph. Also, I also tested the functionality of the transition effect transform scale 1.1 of the image.
+
+The **Visit** section has been tested to verify responsiveness across devices and resolutions.
 
 The **Gallery** section has been tested to verify the optimal functioning of grow shadow on hover, modal functionality, display of the closing icon over the modal image as well as the responsiveness across devices. I found that in some browsers less important, the close icon is not displayed. Unfortunately for this problem, I did not identify a solution. For the **Video** section I tested the functionality of playing video images displayed on the website using iframes as well as responsiveness.
 
@@ -159,7 +161,7 @@ The text of the About section was inspired by [Wikipedia](https://en.wikipedia.o
 * Vector icons for Visit section from [Flaticon](https://flaticon.com)
 * Purchased images from [Adobe Stock Images](https://stock.adobe.com)
 * Free images from the Facebook account of [Cluj Napoca Mayor](https://www.facebook.com/EmilBoc.Intotdeaunapentruclujeni/?epa=SEARCH_BOX)
-* Video images with the written consent of Clujbusiness website owned by Cluj Napoca City Hall
+* Video images with the written consent of [Clujbusiness](https://clujbusiness.ro/) website owned by Cluj Napoca City Hall
 
 ### Acknowledgements
 To create this website, an inspiration but at the same time a source from which I learned many technical elements, was [W3schools](https://www.w3schools.com/). I would also like to thank Twitter for creating Bootstrap which is a magic framework. I would also like to thank the Code Institute instructors who are doing a great job and from where I learned a lot in just a few months. I would also like to thank the colleagues with whom I had discussions on the Slack channels, from where I also had to learn. And last but not least, I thank my mentor [Simen Daehlin](https://github.com/Eventyret).
