@@ -5,7 +5,7 @@ This is the website I created to promote my city. Cluj Napoca is a city in full 
 
 Potential readers will find out new things about this part of Transylvania and photos and video images will make them at least curious to visit the city. The project was made possible with the support of Cluj Napoca City Hall.
 
-## UX
+> ## UX
 
 ### User stories
 The visitor will discover on this website a city about which they may not have heard before, loaded with history, legends, places to visit, festivals and it is addressed to people who are passionate about travel, adventures, eager to discover new places. The website offers them a starting point, then will interest them in the future to visit and discover The Heart of Transylavania, Cluj Napoca.
@@ -28,7 +28,15 @@ For the video section, I used a video presentation of the city of Cluj Napoca pr
 The Contact section is a live one, meaning that the user can sand a message by entering their first name, last name, email address and some message. The data is retrieved by an external server hosted by mailchimp.com, where I have a free user account. Also, after the user presses the send button and sends the message, he is redirected to the contact.html page which displays a successful message sent. This page is a clone of the main page from which the previous sections were deleted.
 
 ### Skeleton
-The website has been structured in one single page with five simple and concise sections, plus landing page, footer and succesfully message sent, contact.html page, that will arouse the user's curiosity to document about this land of legends and, why not, to visit it. The wireframes can be viewed here: [Home](wireframes/landing-page.jpg); [About](wireframes/about-section.jpg); [Visit](wireframes/visit-section.jpg); [Gallery](wireframes/gallery-section.jpg); [Video](wireframes/video-section.jpg); [Contact](wireframes/contact-section.jpg); [Footer](wireframes/footer-section.jpg); [Contact Page](wireframes/succ-contact-section.jpg).
+The website has been structured in one single page with five simple and concise sections, plus landing page, footer and succesfully message sent, contact.html page, that will arouse the user's curiosity to document about this land of legends and, why not, to visit it. The wireframes can be viewed here: 
+* [Landing Page](wireframes/landing-page.jpg); 
+* [About Section](wireframes/about-section.jpg);
+* [Visit Section](wireframes/visit-section.jpg);
+* [Gallery Section](wireframes/gallery-section.jpg); 
+* [Video Section](wireframes/video-section.jpg);
+* [Contact Section](wireframes/contact-section.jpg);
+* [Footer](wireframes/footer-section.jpg);
+* [Contact Page](wireframes/succ-contact-section.jpg).
 
 ### Surface
 The color scheme chosen by me is also a minimalist one. The main color used is # 782b1e, which was extracted from the main image using Adobe Color tool.
@@ -37,11 +45,11 @@ The color scheme chosen by me is also a minimalist one. The main color used is #
 This initial version of the website has some brief features so that the user can find general information about Cluj Napoca. In the future, the website will offer more functionalities such as a section with a more detailed presentation of the places to visit but also others that I have detailed below.
 
 ### Existing Features
-* About - In this section, the reader meets the city of Cluj Napoca, learns some details regarding history, tourist attractions, important cultural events, as well as emblematic tourist locations for the area.
-* Visit - This section presents brief information on the existence of the airport, medieval tourist attractions, festivals in the city, local gastronomy, about the strange forest on the outskirts of the city, as well as on the cafes in the city.
-* Gallery - A rich gallery with pictures from the city, will awaken the reader's imagination and desire to explore more.
-* Video - This short video presentation of the city will have the greatest impact, it offers the user a close contact with the reality of the city, with everything he can discover.
-* Contact - This section is live, let the user send a message.
+* **About** - In this section, the reader meets the city of Cluj Napoca, learns some details regarding history, tourist attractions, important cultural events, as well as emblematic tourist locations for the area.
+* **Visit** - This section presents brief information on the existence of the airport, medieval tourist attractions, festivals in the city, local gastronomy, about the strange forest on the outskirts of the city, as well as on the cafes in the city.
+* **Gallery** - A rich gallery with pictures from the city, will awaken the reader's imagination and desire to explore more.
+* **Video** - This short video presentation of the city will have the greatest impact, it offers the user a close contact with the reality of the city, with everything he can discover.
+* **Contact** - This section is live, let the user send a message.
 
 ### Features Left to Implement
 As I said above, in the future the website will include more functionalities such as a section with a more detailed presentation of places to visit, an interactive map with their location, accommodations, restaurants, caffee shops, various events, but and other features.
