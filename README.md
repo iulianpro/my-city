@@ -25,10 +25,10 @@ Also, the images in the Gallery section, besides the modal use for viewing, have
 
 For the video section, I used a video presentation of the city of Cluj Napoca produced by the Lazar company for the Cluj Napoca City Hall after obtaining its takeover agreement, which I can make available if necessary.
 
-The Subscribe section is a live one, meaning that the user can subscribe to receive a newslatter by entering their first name, last name and email address. The data is retrieved by an external server hosted by mailchimp.com, where I have a free user account. Also, after completing the subscription, the user is redirected to the subscribe.html page which displays a successful subscription message. This page is a clone of the main page from which the previous sections were deleted.
+The Contact section is a live one, meaning that the user can sand a message by entering their first name, last name, email address and some message. The data is retrieved by an external server hosted by mailchimp.com, where I have a free user account. Also, after the user presses the send button and sends the message, he is redirected to the contact.html page which displays a successful message sent. This page is a clone of the main page from which the previous sections were deleted.
 
 ### Skeleton
-The website has been structured in one single page with five simple and concise sections, plus landing page, footer and succesfully subscribe message page, that will arouse the user's curiosity to document about this land of legends and, why not, to visit it. The wireframes can be viewed here: [Home](wireframes/landing-page.jpg); [About](wireframes/about-section.jpg); [Visit](wireframes/visit-section.jpg); [Gallery](wireframes/gallery-section.jpg); [Video](wireframes/video-section.jpg); [Contact](wireframes/subscribe-section.jpg); [Footer](wireframes/footer-section.jpg); [Succesfully Subscribe Page](wireframes/succ-subscribe-section.jpg).
+The website has been structured in one single page with five simple and concise sections, plus landing page, footer and succesfully message sent, contact.html page, that will arouse the user's curiosity to document about this land of legends and, why not, to visit it. The wireframes can be viewed here: [Home](wireframes/landing-page.jpg); [About](wireframes/about-section.jpg); [Visit](wireframes/visit-section.jpg); [Gallery](wireframes/gallery-section.jpg); [Video](wireframes/video-section.jpg); [Contact](wireframes/contact-section.jpg); [Footer](wireframes/footer-section.jpg); [Contact Page](wireframes/succ-contact-section.jpg).
 
 ### Surface
 The color scheme chosen by me is also a minimalist one. The main color used is # 782b1e, which was extracted from the main image using Adobe Color tool.
@@ -58,13 +58,13 @@ To create this website, several technologies were used, as well as some framewor
 * [Font Awesome](https://fontawesome.com)
 
 Also, the following tools were used:
-* Compress images [Tinyjpg](https://tinyjpg.com/)
-* Crop and resize images [Iloveimg](https://www.iloveimg.com/crop-image)
-* Convert image to ICO file [Hnet](https://hnet.com/png-to-ico/)
-* Extract color palette from image [Adobe Color](https://color.adobe.com/create)
-* Pick colors Eye Dropper Chrome extension [Eye Dropper](http://eye-dropper.kepi.cz/)
-* Import Fonts [Google Fonts](https://fonts.google.com/)
-* Simple wireframe maker [Wireframe](https://wireframe.cc/)
+* Compress images with [Tinyjpg](https://tinyjpg.com/)
+* Crop and resize images with [Iloveimg](https://www.iloveimg.com/crop-image)
+* Convert image to ICO file with [Hnet](https://hnet.com/png-to-ico/)
+* Extract color palette from image with [Adobe Color](https://color.adobe.com/create)
+* Pick colors with [Eye Dropper](http://eye-dropper.kepi.cz/) Chrome extension
+* Import Fonts from [Google Fonts](https://fonts.google.com/)
+* Simple wireframe maker with [Wireframe](https://wireframe.cc/)
 * [HTML Validator](https://validator.w3.org/)
 * [CSS Validator](https://jigsaw.w3.org/css-validator/)
 * [CSS Autoprefixer](https://autoprefixer.github.io/)
@@ -78,13 +78,13 @@ Also, the following tools were used:
 ## Testing
 The website was tested both after the creation of each section separately but also after its completion. I tested all the functionality in the main browsers that ran on several operating systems: Chrome, Firefox, Opera, Microsoft Edge, Safari, Dolphin, in Windows 10, Mac OSX 10.14, Android and iOS operating systems, both physically on different personal and friends' devices, as well as the [Cross Browser Testing tool](https://app.crossbrowsertesting.com/test-center). For full responsiveness, for the whole site, I used Bootstrap 4.4.1.
 
-Testing during section construction was done primarily with Chrome DevTools, making sure each element works correctly and optimally, including responsiveness across devices. For navbar, I tested the functionality of all links, including the site brand. I also tested the color change of links to hover and toggle and collapse functioning in small devices. I also tested the functionality of the animated background, which I created with the Love Running project as a model. During the tests, I noticed that background-attachment: fixed; is not functional in the iOS Safari browser. To fix the problem, I used ```@media (max-width: 992px) {.callout-img, .bg-design {background-attachment: scroll;}}```. After a new test, the respective browser displays the background image.
+Testing during section construction was done primarily with Chrome DevTools, making sure each element works correctly and optimally, including responsiveness across devices. For navbar, I tested the functionality of all links, including the site brand. I also tested the color change of links to hover and toggle and collapse functioning in small devices. I also tested the functionality of the animated background, which I created with the Love Running project as a model. During the tests, I noticed that background-attachment: fixed; is not functional in the iOS Safari browser. To fix the problem, I used in media query ```@media (max-width: 992px) {.callout-img, .bg-design {background-attachment: scroll;}}```. After a new test, the respective browser displays the background image.
 
 The About section launched the challenge of disproportionality between the image on the left and the text on the right in different screens, which is why in medium and large screens, I chose to hide 1 paragraph. Also, I also tested the functionality of the transition effect transform scale 1.1 of the image. The Visit section has been tested to verify responsiveness across devices and resolutions.
 
 The Gallery section has been tested to verify the optimal functioning of grow shadow on hover, modal functionality, display of the closing icon over the modal image as well as the responsiveness across devices. I found that in some browsers less important, the close icon is not displayed. Unfortunately for this problem, I did not identify a solution. For the video section I tested the functionality of playing video images displayed on the website using iframes as well as responsiveness.
 
-In the Subscribe section, I tested the optimal functioning of the fields, first name, last name and email, as well as changing the color of the box on hover, the optimal functioning of the "Subscribe" button, blocking the sending of data if the fields are not completed or the email is completed incorrectly, the functionality of transmitting the collected data to the mailchimp.com server, as well as redirecting the user to the subscribe.html page, which displays a successful subscribe message. I have not considered for the moment, the scenario where the user accidentally tries to subscribe twice with the same email address for the newsletter. In this case, the user is redirected to a mailchimp.com page that displays an error message.
+In the Contact section, I tested the optimal functioning of the fields, first name, last name, email and textarea, as well as changing the color of the box on hover, the optimal functioning of the "Send" button, blocking the sending of data if the fields are not completed or the email is completed incorrectly, all fields being required, the functionality of transmitting the collected data to the mailchimp.com server, as well as redirecting the user to the contact.html page, which displays a successful message sent. for the moment, the user can send a single message from the same email address. If it sends the second message, the mailchimp.com server will display an error message. The functionality will be developed in a future version of the website.
 
 The footer section has been tested to verify responsiveness across devices, the optimal functioning of both internal and external links. External links open in a new page so that the user does not leave the page on which they are located. The "Insta Feed" subsection is dysfunctional and was created to balance footer content on large screens. Also, it is only displayed on the screens lg and xl.
 
@@ -137,6 +137,6 @@ The text of the About section was inspired by [Wikipedia](https://en.wikipedia.o
 * Video images with the written consent of Clujbusiness website owned by Cluj Napoca City Hall
 
 ### Acknowledgements
-To create this website, an inspiration but at the same time a source from which I learned many technical elements, was [W3schools](https://www.w3schools.com/). I would also like to thank Twitter for creating Bootstrap which is a magic framework. I would also like to thank the Code Institute instructors who are doing a great job and from where I learned a lot in just a few months. I would also like to thank the colleagues with whom I had discussions on the Slack channels, from where I also had to learn. And last but not least, I thank my mentor Simen Daehlin.
+To create this website, an inspiration but at the same time a source from which I learned many technical elements, was [W3schools](https://www.w3schools.com/). I would also like to thank Twitter for creating Bootstrap which is a magic framework. I would also like to thank the Code Institute instructors who are doing a great job and from where I learned a lot in just a few months. I would also like to thank the colleagues with whom I had discussions on the Slack channels, from where I also had to learn. And last but not least, I thank my mentor [Simen Daehlin](https://github.com/Eventyret).
 
 *This website was created for educational purposes, January 2020.*
