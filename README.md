@@ -28,6 +28,17 @@ Potential readers will find out new things about this part of Transylvania and p
 ### User stories
 The visitor will discover on this website a city about which they may not have heard before, loaded with history, legends, places to visit, festivals and it is addressed to people who are passionate about travel, adventures, eager to discover new places. The website offers them a starting point, then will interest them in the future to visit and discover The Heart of Transylavania, Cluj Napoca.
 
+As a user, I want to:
+* that when accessing the website, to see a landig page that will arouse my curiosity to navigate further;
+* to find out new information about a future holiday destination;
+* to see pictures and video images with the location described to give me an opinion about this city;
+* to can send a message if I want to find out more details about this location;
+
+As a owner I want to:
+* make known to the public the existence of a city that can be a perfect destination for a city break for example;
+* the visitor can access the photos and watch the video clip to know the city;
+* receive messages from users when they send one using the contact form
+
 ### Strategy
 My goal was to create a minimalist and user-friendly website as possible, to present the city of Cluj Napoca, a starting point for the user to find out about this place.
 
@@ -43,7 +54,7 @@ Also, the images in the Gallery section, besides the modal use for viewing, have
 
 For the video section, I used a video presentation of the city of Cluj Napoca produced by the Lazar company for the Cluj Napoca City Hall after obtaining its takeover agreement, which I can make available if necessary.
 
-The Contact section is a live one, meaning that the user can sand a message by entering their first name, last name, email address and some message. The data is retrieved by an external server hosted by mailchimp.com, where I have a free user account. Also, after the user presses the send button and sends the message, he is redirected to the contact.html page which displays a successful message sent. This page is a clone of the main page from which the previous sections were deleted.
+The Contact section is a live one, meaning that the user can send a message by entering their first name, last name, email address and some message. The data is retrieved by an external server hosted by mailchimp.com, where I have a free user account. Also, after the user presses the send button and sends the message, he is redirected to the contact.html page which displays a successful message sent. This page is a clone of the main page from which the previous sections were deleted.
 
 ### Skeleton
 The website has been structured in one single page with five simple and concise sections, plus landing page, footer and succesfully message sent, contact.html page, that will arouse the user's curiosity to document about this land of legends and, why not, to visit it. The wireframes can be viewed here: 
@@ -117,7 +128,7 @@ The **Gallery** section has been tested to verify the optimal functioning of gro
 
 For the **Video** section I tested the functionality of playing video images displayed on the website using iframes as well as responsiveness.
 
-In the **Contact** section, I tested the optimal functioning of the fields, first name, last name, email and textarea, as well as changing the color of the box on hover, the optimal functioning of the "Send" button, blocking the sending of data if the fields are not completed or the email is completed incorrectly, all fields being required, the functionality of transmitting the collected data to the mailchimp.com server, as well as redirecting the user to the contact.html page, which displays a successful message sent. for the moment, the user can send a single message from the same email address. If it sends the second message, the mailchimp.com server will display an error message. The functionality will be developed in a future version of the website.
+In the **Contact** section, I tested the optimal functioning of the fields, first name, last name, email and textarea, as well as changing the color of the box on hover, the optimal functioning of the "Send" button, blocking the sending of data if the fields are not completed or the email is completed incorrectly, all fields being required, the functionality of transmitting the collected data to the mailchimp.com server, as well as redirecting the user to the contact.html page, which displays a successful message sent. For the moment, the user can send a single message from the same email address. If it sends the second message, the mailchimp.com server will display an error message. The functionality will be developed in a future version of the website.
 
 The **Footer** has been tested to verify responsiveness across devices, the optimal functioning of both internal and external links. External links open in a new page so that the user does not leave the page on which they are located. The "Insta Feed" subsection is dysfunctional and was created to balance footer content on large screens. Also, it is only displayed on the screens lg and xl.
 
