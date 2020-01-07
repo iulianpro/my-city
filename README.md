@@ -1,10 +1,27 @@
 # My City | Cluj Napoca
-User Centric Frontend Development Milestone Project - Code Institute
 
 This is the website I created to promote my city. Cluj Napoca is a city in full development both economically and tourist, with a rich historical heritage. Transylvania is an area full of vampire legends and Cluj Napoca is no exception. As a visitor you will discover in the heart of Transylvania a multitude of ancient tourist attractions, local traditions dating back centuries, but you will also discover local gastronomy, famous festivals throughout Europe as well as warm people and ready to welcome guests.
 
 Potential readers will find out new things about this part of Transylvania and photos and video images will make them at least curious to visit the city. The project was made possible with the support of Cluj Napoca City Hall.
 
+> ## Contents
+* [UX](https://github.com/iulianpro/my-city#ux)
+    - [User stories](https://github.com/iulianpro/my-city#user-stories)
+    - [Strategy](https://github.com/iulianpro/my-city#strategy)
+    - [Scope](https://github.com/iulianpro/my-city#scope)
+    - [Structure](https://github.com/iulianpro/my-city#structure)
+    - [Skeleton](https://github.com/iulianpro/my-city#skeleton)
+    - [Surface](https://github.com/iulianpro/my-city#surface)
+* [Features](https://github.com/iulianpro/my-city#features)
+    - [Existing Features](https://github.com/iulianpro/my-city#existing-features)
+    - [Features Left to Implement](https://github.com/iulianpro/my-city#features-left-to-implement)
+* [Technologies Used](https://github.com/iulianpro/my-city#technologies-used)
+* [Testing](https://github.com/iulianpro/my-city#testing)
+* [Deployment](https://github.com/iulianpro/my-city#deployment)
+* [Credits](https://github.com/iulianpro/my-city#credits)
+    - [Content](https://github.com/iulianpro/my-city#content)
+    - [Media](https://github.com/iulianpro/my-city#media)
+    - [Acknowledgements](https://github.com/iulianpro/my-city#acknowledgements)
 
 > ## UX
 
